@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="general_margin">20dp</dimen>
+    <dimen name="general_topMargin">10dp</dimen>
+    <dimen name="about_topMargin">60dp</dimen>
+    <dimen name="coverdata_name">22sp</dimen>
+    <dimen name="cardview_corner_radius">4dp</dimen>
+    <dimen name="cardview_main_imageview_dimen">160dp</dimen>
+    <dimen name="about_userMale_dimen">60dp</dimen>
+</resources>

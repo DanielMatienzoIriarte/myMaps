@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/cardview_place_of_interest"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/general_margin"
+    android:layout_marginTop="@dimen/general_topMargin"
+    card_view:cardCornerRadius="@dimen/cardview_corner_radius">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/cardview_main_imageview_portrait"
+            android:layout_width="@dimen/cardview_main_imageview_dimen"
+            android:layout_height="@dimen/cardview_main_imageview_dimen"
+            android:layout_gravity="center"
+            android:src="@drawable/concordia"
+            android:contentDescription="@null">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/cardview_main_textview_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_grid_concordia"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
